@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #your-color;
+    --secondary-color: #your-secondary-color;
+    --success-color: #your-success-color;
+    --danger-color: #your-danger-color;
+}
+
+/* Override Bootstrap variables jika menggunakan Bootstrap */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
